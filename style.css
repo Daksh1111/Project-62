@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+    background-repeat:no-repeat;
+    
+}
+
+#slidegallery, {
+    padding-top: 70px;
+}
+
+.img1 {
+    width: 300px;
+    height: 300px;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 80px;
+    margin: 8px auto;
+}
+
+.menu {
+    font-family: cursive; 
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: alias;
+    width: 100%;
+    margin-top: 0px;
+    background-color: red;
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+li {
+    display: inline;
+    word-spacing: 20px;
+}
+
+.links:hover {
+    background-color: crimson;
+    color: darkred;
+    font-size: 30px;
+}
+
+.links {
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: cursive;
+    word-spacing: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#mycarousel {
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+    background-repeat:no-repeat;
+}
+
+#mycarousel img {
+    height: 500px;
+    width: 500px;
+    margin-top: 40px;
+}
+
+.carouselinner p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    text-decoration-color: lightblue;
+}
